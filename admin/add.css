@@ -1,0 +1,49 @@
+h2{
+    margin: 30px 30px 15px 30px;
+    text-align: center;
+    font-size: 45px;
+    font-family: Garamond;
+    color: white;
+    border-bottom: 2px solid #1d3a75; 
+    padding-bottom: 4px;
+}
+
+.add-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 85%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+	outline: none;
+}
+label{
+    font-size: 15px;
+    font-family: cursive;
+
+}
+
+.add{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(127, 189, 255);
+    margin-left: 40px;
+    cursor: pointer;
+    border: 0;
+	outline: none;
+}
+
+.add:hover{
+    background-color: rgb(48, 73, 99);
+    color: white;
+}

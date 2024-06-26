@@ -1,0 +1,105 @@
+/* Add your own styles based on your design preferences */
+.dropdown {
+    position: relative;
+    display: inline-block;
+   
+}
+
+/* .dropbtn {
+    
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+} */
+
+.dropdown-content {
+    
+    display: none;
+    position: absolute;
+    background-color:#496ee9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index:1 ;
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+   
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Optional: Add styles for a responsive design */
+/* @media screen and (max-width: 600px) {
+    .dropdown-content {
+        width: 100%;
+        box-shadow: none;
+    }
+} */
+
+/* content */
+
+.box{
+   display: flex;
+   /* height: 700px; */
+   margin: 100px;
+    
+}
+
+.box1,.box2{
+    background-color: rgba(62, 132, 236, 0.583);
+    height: 33%;
+    width: 30%;
+    margin: 20px 40px 20px 5px;
+    box-shadow: 10px 10px 10px rgba(20, 66, 126, 0.583);
+    border-radius: 10px;
+
+}
+
+.box-header{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 20px 5px 5px 20px;
+    border-bottom: 1px solid rgba(26, 25, 25, 0.669);
+}
+
+.box-content{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding:20px 5px 5px 20px;  
+   height:120px;
+
+}
+
+.box-content a{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+   position: relative;
+   top: 35px;
+   background-color: rgba(247, 0, 255, 0.551);
+   color: rgb(255, 255, 255);
+   padding: 10px 10px 10px 10px;
+   border-radius: 10px;
+    
+}
+
+
+
